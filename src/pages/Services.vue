@@ -1,101 +1,103 @@
 <template>
-       <section class="services section" id="services">
-      <h2 class="section__title">Services</h2>
-      <span class="section__subtitle">What i Offer</span>
+  <section class="services section" id="services">
+    <h2 class="section__title">Services</h2>
+    <span class="section__subtitle">What i Offer</span>
 
-      <div class="services__container container grid">
-        <!--==================== SERVICES 1 ====================-->
-        <div class="services__content">
-          <div>
-            <i class="uil uil-arrow services__icon"></i>
-            <h3 class="services__title">
-              Frontend <br />
-              Developer
-            </h3>
-          </div>
-          <span
-            @click="service1 = true"
-            class="button button--flex button--small button--link services__button"
-            >View more
-            <i class="uil uil-arrow-right button__icon"></i>
-          </span>
-
-          <div class="services__modal" :class="{ 'active-modal': service1 }">
-            <div class="services__modal-content">
-              <h4 class="services__modal-title">Frontend Developer</h4>
-              <i
-                class="uil uil-times services__modal-close"
-                @click="service1 = false"
-              ></i>
-
-              <ul class="services__modal-services grid">
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I develop frontend</p>
-                </li>
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I create ux element interactions</p>
-                </li>
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I create responsive designs</p>
-                </li>
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I build my project with fully reusable hooks and components</p>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <div class="services__container container grid">
+      <!--==================== SERVICES 1 ====================-->
+      <div class="services__content">
+        <div>
+          <i class="uil uil-arrow services__icon"></i>
+          <h3 class="services__title">
+            Frontend <br />
+            Developer
+          </h3>
         </div>
-        <!--==================== SERVICES 2 ====================-->
-        <div class="services__content">
-          <div>
-            <i class="uil uil-user services__icon"></i>
-            <h3 class="services__title">Myself</h3>
-          </div>
-          <span
-            @click="service2 = true"
-            class="button button--flex button--small button--link services__button"
-            >View more
-            <i class="uil uil-arrow-right button__icon"></i>
-          </span>
-          <div class="services__modal" :class="{ 'active-modal': service2 }">
-            <div class="services__modal-content">
-              <h4 class="services__modal-title">Who i am</h4>
-              <i
-                class="uil uil-times services__modal-close"
-                @click="service2 = false"
-              ></i>
+        <span
+          @click="service1 = true"
+          class="button button--flex button--small button--link services__button"
+          >View more
+          <i class="uil uil-arrow-right button__icon"></i>
+        </span>
 
-              <ul class="services__modal-services grid">
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I am good at problem solving and crisis management</p>
-                </li>
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I am extrovert person and i like teamworks </p>
-                </li>
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I am intelligent person, i can understand and learn super fast</p>
-                </li>
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>I am ambitious person and precise</p>
-                </li>
-              </ul>
-            </div>
+        <div class="services__modal" :class="{ 'active-modal': service1 }">
+          <div class="services__modal-content">
+            <h4 class="services__modal-title">Frontend Developer</h4>
+            <i
+              class="uil uil-times services__modal-close"
+              @click="service1 = false"
+            ></i>
+
+            <ul class="services__modal-services grid">
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I develop frontend</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I create ux element interactions</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I create responsive designs</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>
+                  I build my project with fully reusable hooks and components
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+      <!--==================== SERVICES 2 ====================-->
+      <div class="services__content">
+        <div>
+          <i class="uil uil-user services__icon"></i>
+          <h3 class="services__title">Myself</h3>
+        </div>
+        <span
+          @click="service2 = true"
+          class="button button--flex button--small button--link services__button"
+          >View more
+          <i class="uil uil-arrow-right button__icon"></i>
+        </span>
+        <div class="services__modal" :class="{ 'active-modal': service2 }">
+          <div class="services__modal-content">
+            <h4 class="services__modal-title">Who i am</h4>
+            <i
+              class="uil uil-times services__modal-close"
+              @click="service2 = false"
+            ></i>
+
+            <ul class="services__modal-services grid">
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I am good at problem solving and crisis management</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I am extrovert and i like teamworks</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>i can understand and learn super fast</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I am ambitious and precise</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
-import {ref} from 'vue'
+import { ref } from "vue";
 const service1 = ref(false);
 const service2 = ref(false);
 </script>
@@ -188,42 +190,41 @@ const service2 = ref(false);
   opacity: 1;
   visibility: visible;
 }
-@media screen and (max-width:350px) {
-    .services__container{
+@media screen and (max-width: 350px) {
+  .services__container {
     grid-template-columns: max-content;
     justify-content: center;
   }
-  .services__content{
-    padding-right:3.5rem ;
+  .services__content {
+    padding-right: 3.5rem;
   }
-  .services__modal{
-    padding: 0 .5rem;
+  .services__modal {
+    padding: 0 0.5rem;
   }
 }
-@media screen and (min-width:582px) {
-    
+@media screen and (min-width: 582px) {
 }
-@media screen and (min-width:768px) {
-    .services__container{
-    grid-template-columns: repeat(2,218px);
+@media screen and (min-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 218px);
     justify-content: center;
   }
-  .services__icon{
+  .services__icon {
     font-size: 2rem;
   }
-  .services__content{
+  .services__content {
     padding: 6rem 0 2rem 2.5rem;
   }
-  .services__modal-content{
+  .services__modal-content {
     width: 450px;
   }
 }
-@media screen and (min-width:1024px) {
-    .services__container{
-    grid-template-columns: repeat(2,368px);
+@media screen and (min-width: 1024px) {
+  .services__container {
+    grid-template-columns: repeat(2, 368px);
     width: 100%;
   }
-  .services__content{
+  .services__content {
     width: 100%;
   }
 }
