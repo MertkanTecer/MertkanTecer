@@ -159,7 +159,6 @@ const service2 = ref(false);
   padding: 1.5rem;
   border-radius: 0.5rem;
 }
-
 .services__modal-services {
   row-gap: 1rem;
 }
@@ -171,7 +170,6 @@ const service2 = ref(false);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
 }
-
 .services__modal-close {
   position: absolute;
   top: 1rem;
@@ -180,7 +178,6 @@ const service2 = ref(false);
   color: var(--first-color);
   cursor: pointer;
 }
-
 .services__modal-icon {
   color: var(--first-color);
   margin-right: var(--mb-0-25);

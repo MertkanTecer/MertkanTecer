@@ -42,6 +42,20 @@
             </p>
           </div>
         </swiper-slide>
+
+         <!--==================== PORTFOLIO 3 ====================-->
+         <swiper-slide class="portfolio__content grid">
+          <img src="../img/UpgradeMe.png" class="portfolio__img" alt="" />
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">Upgrade Me !</h3>
+            <p class="portfolio__description">
+              A Upgrade Game where you can upgrade your items with chance. Made with VueJS by Mertkan
+              Tecer
+            </p>
+            <a href="https://upgrademe.vercel.app" class="link__button">Demo</a>
+          </div>
+        </swiper-slide>
       </swiper>
     </div>
   </section>
@@ -60,6 +74,17 @@ import { Pagination, Autoplay } from "swiper";
 .marbo {
   margin-top: 5rem;
   width: 500px;
+}
+.link__button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.8rem;
+  width: 100px;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
 }
 .portfolio__content {
   padding: 0 1.5rem;
