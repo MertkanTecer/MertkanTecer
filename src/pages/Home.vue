@@ -99,7 +99,7 @@
   color: var(--first-color-alt);
 }
 .home__blob {
-  width: 200px;
+  width: 300px;
   fill: var(--first-color);
 }
 .home__blob-img {
