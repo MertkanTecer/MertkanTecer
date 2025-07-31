@@ -31,7 +31,7 @@
                 <span class="qualification__subtitle">Anadolu University</span>
                 <div class="qualification__calendar">
                   <i class="uil uil-calendar-alt qualification__icon"></i>
-                  2020-2024
+                  2020 - Left Unfinished
                 </div>
               </div>
             </div>

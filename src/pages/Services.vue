@@ -31,7 +31,7 @@
             <ul class="services__modal-services grid">
               <li class="services__modal-service">
                 <i class="uil uil-check-circle services__modal-icon"></i>
-                <p>I develop frontend</p>
+                <p>I do my job as good as possible</p>
               </li>
               <li class="services__modal-service">
                 <i class="uil uil-check-circle services__modal-icon"></i>

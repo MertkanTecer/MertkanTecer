@@ -108,14 +108,12 @@ const sendUser = () => {
         return;
     }
     Validate.value = true
-    console.log('ananana');
     const newUser = {
         Name:userName.value.value,
         Email:Email.value.value,
         Project:Project.value.value,
         Message:Message.value.value
     }
-    console.log('in ContactForm' , newUser);
     emits('send-contact',newUser)
     userName.value.value = ''
     Email.value.value = ''
