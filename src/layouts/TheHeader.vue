@@ -43,7 +43,7 @@
       </div>
       <div class="nav__btns">
       <!-- Theme Change Button -->
-      <i class="uil uil-moon change-theme" v-if="!setTheme" @click="changeTheme(setTheme=true)" id="theme-button"></i>
+      <i class="uil uil-moon change-theme" v-if="setTheme" @click="changeTheme(setTheme=true)" id="theme-button"></i>
       <i class="uil uil-sun change-theme" v-else  @click="changeTheme(setTheme=false)" id="theme-button"></i>
         <div class="nav__toggle" id="nav-toggle" @click="showMenu = !showMenu">
           <i class="uil uil-apps"></i>
