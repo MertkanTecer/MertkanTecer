@@ -13,7 +13,7 @@
         <div class="about__buttons">
           <a
             download
-            href="/files/MertkanTecerResume.pdf"
+            href=""
             class="button button--flex"
           >
             Download<i class="uil uil-download-alt button__icon"></i>
